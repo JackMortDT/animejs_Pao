@@ -6,11 +6,11 @@ $('.ml2').each(function(){
 anime.timeline({loop: true})
   .add({
     targets: '.ml2 .letter',
-    scale: [4,1],
-    opacity: [0,1],
+    scale: [5,1],
+    opacity: [-1,1],
     translateZ: 0,
     easing: "easeOutExpo",
-    duration: 950,
+    duration: 1000,
     delay: function(el, i) {
       return 70*i;
     }
